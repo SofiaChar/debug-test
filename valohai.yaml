@@ -1,6 +1,6 @@
 - step:
     name: ssh-connect
-    environment: valohai-gcp-us-central1-e2-medium
+    environment: staging-aws-eu-west-1-t3-medium
     image: python:3.9
     command:
     - pip install numpy
@@ -9,7 +9,7 @@
 
 - step:
     name: debugger-vscode
-    environment: valohai-gcp-us-central1-e2-medium
+    environment: staging-aws-eu-west-1-t3-medium
     image: python:3.9
     command:
     - pip install numpy debugpy
