@@ -12,5 +12,5 @@
     environment: valohai-gcp-us-central1-e2-medium
     image: python:3.9
     command:
-    - pip install numpy
+    - pip install numpy debugpy
     - python debugger.py
