@@ -1,8 +1,16 @@
 - step:
-    name: debug
-    environment: azure-westeurope-f2sv2
+    name: ssh-connect
+    environment: valohai-gcp-us-central1-e2-medium
     image: python:3.9
     command:
     - pip install numpy
     - python script.py
-    # - sleep 1h
+    - sleep 1h
+
+- step:
+    name: debugger-vscode
+    environment: valohai-gcp-us-central1-e2-medium
+    image: python:3.9
+    command:
+    - pip install numpy
+    - python debugger.py
