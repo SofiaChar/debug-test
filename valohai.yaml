@@ -1,5 +1,6 @@
 - step:
     name: debug
+    environment: azure-westeurope-f2sv2
     image: python:3.9
     command:
     - pip install numpy
