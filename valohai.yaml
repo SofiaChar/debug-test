@@ -1,0 +1,7 @@
+- step:
+    name: debug
+    image: python:3.9
+    command:
+    - pip install numpy
+    - python script.py
+    # - sleep 1h
